@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="karyawan_pns_menu" name="Karyawan PNS" sequence="1"/>
+    <menuitem id="karyawan_pns_list_menu" parent="karyawan_pns_menu" sequence="10" groups="base.group_user" action="karyawan_pns_action" name="Karyawan List"/>
+    <menuitem id="karyawan_role_list_menu" parent="karyawan_pns_menu" sequence="20" groups="base.group_user" action="karyawan_role_action" name="Jabatan List"/>
+</odoo>
